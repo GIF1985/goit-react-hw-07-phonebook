@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.title {
+  color: #0078d4;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.emptyMessage {
+  color: #777;
+  font-size: 16px;
+  text-align: center;
+}
