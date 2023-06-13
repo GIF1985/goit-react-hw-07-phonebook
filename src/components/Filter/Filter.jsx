@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Filter.module.css';
 
@@ -6,11 +7,11 @@ export const Filter = ({ value, onChangeFilter }) => {
     <div className={styles.filterContainer}>
       Find contacts by name
       <input
+        className={styles.field}
         type="text"
-        className={styles.filterInput}
         value={value}
         onChange={onChangeFilter}
-        placeholder=" enter contact"
+        placeholder="Enter contact"
       />
     </div>
   );

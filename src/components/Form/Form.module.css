@@ -1,0 +1,47 @@
+.containerForm {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.containerField {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.fieldItem {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.fieldItem:focus {
+  outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 3px rgba(0, 120, 212, 0.5);
+}
+
+.btnDisabled {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.btnDisabled:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
